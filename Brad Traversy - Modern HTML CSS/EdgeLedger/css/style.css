@@ -156,6 +156,11 @@ img {
   margin-top: 20px;
 }
 
+.hero.blog {
+  background: url(../img/home/blog.jpg) no-repeat center center/cover;
+  height: 30vh;
+}
+
 .footer {
   display: flex;
   flex-direction: column;
