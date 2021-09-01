@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   background: #fff;
@@ -48,6 +52,7 @@ img {
   position: fixed;
   top: 0;
   padding: 0 30px;
+  transition: 0.5s;
 }
 
 #navbar ul {
@@ -207,4 +212,8 @@ img {
   .team img {
     width: 70%;
   }
+}
+
+#navbar.top {
+  background: transparent;
 }
